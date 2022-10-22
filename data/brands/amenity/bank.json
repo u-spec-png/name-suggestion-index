@@ -1046,17 +1046,6 @@
       }
     },
     {
-      "displayName": "Banco BMG",
-      "id": "bancobmg-0ed44d",
-      "locationSet": {"include": ["br"]},
-      "tags": {
-        "amenity": "bank",
-        "brand": "Banco BMG",
-        "brand:wikidata": "Q16496437",
-        "name": "Banco BMG"
-      }
-    },
-    {
       "displayName": "Banco BPI (Portugal)",
       "id": "bancobpi-4028ed",
       "locationSet": {"include": ["pt"]},
@@ -1535,17 +1524,6 @@
         "brand:wikidata": "Q26250269",
         "name": "Banco Mercantil Santa Cruz",
         "short_name": "BMSC"
-      }
-    },
-    {
-      "displayName": "Banco Mercantil do Brasil",
-      "id": "bancomercantildobrasil-0ed44d",
-      "locationSet": {"include": ["br"]},
-      "tags": {
-        "amenity": "bank",
-        "brand": "Banco Mercantil do Brasil",
-        "brand:wikidata": "Q9645252",
-        "name": "Banco Mercantil do Brasil"
       }
     },
     {
@@ -4506,7 +4484,7 @@
     {
       "displayName": "Crédit Agricole",
       "id": "creditagricole-b7a026",
-      "locationSet": {"include": ["001"]},
+      "locationSet": {"include": ["001"], "exclude": ["rs"]},
       "tags": {
         "amenity": "bank",
         "brand": "Crédit Agricole",
@@ -5165,17 +5143,6 @@
         "brand:wikidata": "Q1411810",
         "name": "Fifth Third Bank",
         "short_name": "5/3 Bank"
-      }
-    },
-    {
-      "displayName": "Fineco",
-      "id": "fineco-7b36b5",
-      "locationSet": {"include": ["it"]},
-      "tags": {
-        "amenity": "bank",
-        "brand": "Fineco",
-        "brand:wikidata": "Q3745690",
-        "name": "Fineco"
       }
     },
     {
@@ -9144,30 +9111,6 @@
       }
     },
     {
-      "displayName": "State Bank of Para",
-      "id": "statebankofpara-0ed44d",
-      "locationSet": {"include": ["br"]},
-      "tags": {
-        "alt_name": "Banpará",
-        "amenity": "bank",
-        "brand": "State Bank of Para",
-        "brand:wikidata": "Q16496450",
-        "name": "State Bank of Para"
-      }
-    },
-    {
-      "displayName": "State Bank of Sergipe",
-      "id": "statebankofsergipe-0ed44d",
-      "locationSet": {"include": ["br"]},
-      "tags": {
-        "alt_name": "Banese",
-        "amenity": "bank",
-        "brand": "State Bank of Sergipe",
-        "brand:wikidata": "Q16496452",
-        "name": "State Bank of Sergipe"
-      }
-    },
-    {
       "displayName": "State Employees Credit Union (Maryland)",
       "id": "stateemployeescreditunion-06946f",
       "locationSet": {
@@ -9707,17 +9650,6 @@
         "brand:wikidata": "Q2543704",
         "name": "Unicaja Banco",
         "short_name": "Unicaja"
-      }
-    },
-    {
-      "displayName": "Unicred",
-      "id": "unicred-0ed44d",
-      "locationSet": {"include": ["br"]},
-      "tags": {
-        "amenity": "bank",
-        "brand": "Unicred",
-        "brand:wikidata": "Q10387649",
-        "name": "Unicred"
       }
     },
     {
@@ -15393,6 +15325,20 @@
         "name": "鹿児島銀行",
         "name:en": "Kagoshima Bank",
         "name:ja": "鹿児島銀行"
+      }
+    },
+    {
+      "displayName": "РБА банка",
+      "id": "rbabank-f2r3es",
+      "locationSet": {"include": ["rs"]},
+      "matchNames": ["Kredit agrikol", "Crédit Agricole", "Credit Agricole"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "РБА банка",
+        "brand:wikidata": "Q5191472",
+        "name": "РБА банка",
+        "name:sr": "РБА банка",
+        "name:sr-Latn": "RBA banka"
       }
     }
   ]
