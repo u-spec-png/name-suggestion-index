@@ -8381,7 +8381,7 @@
       "locationSet": {"include": ["rs"]},
       "tags": {
         "amenity": "bank",
-        "barnd:en": "Postanska stedionica",
+        "brand:en": "Postanska stedionica",
         "brand": "Поштанска штедионица",
         "brand:sr": "Поштанска штедионица",
         "brand:sr-Latn": "Poštanska štedionica",
